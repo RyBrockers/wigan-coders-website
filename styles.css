@@ -95,15 +95,15 @@ html, body {
 }
 .fa-html5 {
     color: #ff0000;
-    font-size: 60px;
+    font-size: 80px;
 }
 .fa-css3-alt {
     color: #264DE4;
-    font-size: 60px;
+    font-size: 80px;
 }
 .fa-js-square {
     color: #F5DF4B;
-    font-size: 60px;
+    font-size: 80px;
 }
 .title-color {
     color: #264DE4;
@@ -153,6 +153,16 @@ html, body {
 iframe {
     width: 200px;
     height: 200px;
+}
+.timer {
+    margin: 0;
+    padding: 0;
+}
+.copy {
+    margin-top: 90px;
+}
+#date {
+    color: #ff0000;
 }
 /* icons */
 .fa-twitter {
