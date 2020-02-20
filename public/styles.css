@@ -184,7 +184,10 @@ font-size: 30px;
 .fa-envelope {
 font-size: 30px;
 color: #9b9999;
-
+}
+.fa-user-friends {
+font-size: 30px;
+color: #264DE4;
 }
 
 /* footer ends */
