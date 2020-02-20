@@ -4,7 +4,7 @@ html, body {
 
 /* navbar */
 .navbar {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px dotted #000;
     background: #eee;
     display: flex;
     justify-content: center;
@@ -159,10 +159,20 @@ iframe {
     padding: 0;
 }
 .copy {
-    margin-top: 90px;
+    margin-top: 40px;
+    text-align: center;
+}
+.copyright {
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    background: #edeeee;
+    color: #a7aaaa;
 }
 #date {
     color: #ff0000;
+}
+.email {
+    margin: 10px auto;
 }
 /* icons */
 .fa-twitter {
@@ -224,39 +234,46 @@ color: #264DE4;
     h2 {
         font-size: 20px;
     }
+    /* footer */
     .icons {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        margin: 5% auto;
-
+        /* flex-direction: column; */
+        margin: 10% auto;
     }
+   
     .fa-twitter {
-        margin: 5px auto;
+        margin: 5px 30px;
         }
         .fa-instagram {
-            margin: 5px auto;
+            margin: 5px 30px;
 
         }
         .fa-facebook-f {
-            margin: 5px auto;
+            margin: 5px 30px;
 
         }
         .fa-github-alt {
-            margin: 5px auto;
+            margin: 5px 30px;
 
         }
         .fa-html5 {
-            margin: 5px auto;
+            margin: 5px 30px;
             
         }
         .fa-css3-alt {
-            margin: 5px auto;
+            margin: 5px 30px;
 
         }
         .fa-js-square {
-            margin: 5px auto;
+            margin: 5px 30px;
 
+        }
+        h6 {
+            margin: 20px auto;
+        }
+        .col {
+            margin: 10% 2%;
         }
   }
