@@ -1,0 +1,105 @@
+/* header */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    font-family: 'Ubuntu';
+    text-align: center;
+    background: #1481BA;
+    color: #eee;
+}
+
+.header-content {
+    padding: 2%;
+}
+
+.header-content p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header-content h1 {
+    margin: 2% auto;
+    padding: 0 !important;
+    font-size: 40px;
+}
+
+
+/* warning */
+
+.warning {
+    background: #e84a4a;
+    margin: 0 !important;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+
+/* warning end */
+
+
+/* header ends */
+
+
+/* main */
+
+main {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+
+/* top-content */
+
+.top-content h2 {
+    color: #474949;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+
+/* top-content ends */
+
+
+/* mid-content */
+
+.mid-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #eee;
+    background: #001021;
+    padding: 10px;
+}
+
+.mid-content-info {
+    width: 100%;
+    max-width: 700px;
+    line-height: 35px;
+}
+
+section.mid {
+    margin: 10% auto;
+}
+
+.mid-header p {
+    font-size: 20px;
+}
+
+
+/* mid-content ends */
+
+
+/* main ends */
+
+@media only screen and (max-width: 600px) {
+    .mid-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
