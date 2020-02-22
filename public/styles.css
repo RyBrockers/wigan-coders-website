@@ -1,8 +1,11 @@
-html, body {
+html,
+body {
     width: 100%;
 }
 
+
 /* navbar */
+
 .navbar {
     border-bottom: 1px dotted #000;
     background: #eee;
@@ -13,17 +16,22 @@ html, body {
     text-align: center;
     width: 100%;
 }
+
 .navbar h1 {
     margin: 0 !important;
     padding: 0 !important;
     color: #264DE4;
 }
+
 .navbar p {
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
 }
+
+
 /* navbar ends */
+
 
 /* image-content */
 
@@ -34,15 +42,18 @@ html, body {
     align-items: center;
     flex-direction: row;
 }
+
 .image-content img {
     border-radius: 10px;
     opacity: 0.7;
 }
+
 .info {
     margin-top: 4%;
     text-align: center;
     font-size: 20px;
 }
+
 .image-info {
     padding: 20px;
     width: 100%;
@@ -53,61 +64,141 @@ html, body {
     align-items: center;
     flex-direction: column;
 }
+
+
 /* image-content ends */
 
 
 /* topics */
+
 .topics-content {
     margin: 12% auto;
     width: 100%;
 }
+
 .topics-content h2 {
     text-align: center;
     margin: 3% auto;
 }
+
 .topics-content h5 {
     text-align: center;
     padding: 0;
     margin: 0;
 }
+
 .topics-content h5:hover {
-   color: #303077;
+    color: #303077;
 }
+
 .topics-holder {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
+
 .topics-content p {
     text-align: center;
     margin: 3% auto;
     width: 100%;
     max-width: 600px;
     font-size: 20px;
+}
 
-    }
 .topic {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .fa-html5 {
     color: #ff0000;
     font-size: 80px;
 }
+
 .fa-css3-alt {
     color: #264DE4;
     font-size: 80px;
 }
+
 .fa-js-square {
     color: #F5DF4B;
     font-size: 80px;
 }
+
 .title-color {
     color: #264DE4;
 }
+
+
+/* topics ends */
+
+
+/* footer */
+
+.footer {
+    background: #eee;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.col {
+    margin: 2% 2%;
+    text-align: center;
+}
+
+.col.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 25px auto;
+}
+
+iframe {
+    width: 200px;
+    height: 200px;
+}
+
+.timer {
+    margin: 0;
+    padding: 0;
+}
+
+.copy {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.copyright {
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    background: #edeeee;
+    color: #a7aaaa;
+}
+
+#date {
+    color: #ff0000;
+}
+
+.email {
+    margin: 10px auto;
+}
+
 
 /* icons */
 
@@ -115,94 +206,38 @@ html, body {
     margin: auto 40px;
 }
 
-/* topics ends */
-
-
-/* footer */
-.footer {
-    background: #eee;
-    
-}
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-.col {
-    margin: 2% 2%;
-    text-align: center;
-}
-.col.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-
-}
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 25px auto;
-
-
-}
-iframe {
-    width: 200px;
-    height: 200px;
-}
-.timer {
-    margin: 0;
-    padding: 0;
-}
-.copy {
-    margin-top: 40px;
-    text-align: center;
-}
-.copyright {
-    padding: 10px;
-    border-top: 1px solid #ffffff;
-    background: #edeeee;
-    color: #a7aaaa;
-}
-#date {
-    color: #ff0000;
-}
-.email {
-    margin: 10px auto;
-}
-/* icons */
 .fa-twitter {
-color: #39A2F2;
-font-size: 30px;
+    color: #39A2F2;
+    font-size: 30px;
 }
+
 .fa-instagram {
-color: #D54370;
-font-size: 30px;
+    color: #D54370;
+    font-size: 30px;
 }
+
 .fa-facebook-f {
-color: #3C5998;
-font-size: 30px;
+    color: #3C5998;
+    font-size: 30px;
 }
+
 .fa-github-alt {
-color: #000000;
-font-size: 30px;
+    color: #000000;
+    font-size: 30px;
 }
+
 .fa-envelope {
-font-size: 30px;
-color: #9b9999;
+    font-size: 30px;
+    color: #9b9999;
 }
+
 .fa-user-friends {
-font-size: 30px;
-color: #264DE4;
+    font-size: 30px;
+    color: #264DE4;
 }
+
 
 /* footer ends */
-
-
 
 @media only screen and (max-width: 600px) {
     /* image-content */
@@ -214,15 +249,15 @@ color: #264DE4;
         text-align: center;
     }
     .image-content img {
-      width: 100%;
-      max-width: 280px;
+        width: 100%;
+        max-width: 280px;
     }
     /* topics */
     .topics-holder {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
     }
     .footer-content {
@@ -239,41 +274,53 @@ color: #264DE4;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* flex-direction: column; */
+        /* flex-direction: row; */
         margin: 10% auto;
     }
-   
     .fa-twitter {
         margin: 5px 30px;
-        }
-        .fa-instagram {
-            margin: 5px 30px;
-
-        }
-        .fa-facebook-f {
-            margin: 5px 30px;
-
-        }
-        .fa-github-alt {
-            margin: 5px 30px;
-
-        }
-        .fa-html5 {
-            margin: 5px 30px;
-            
-        }
-        .fa-css3-alt {
-            margin: 5px 30px;
-
-        }
-        .fa-js-square {
-            margin: 5px 30px;
-
-        }
-        h6 {
-            margin: 20px auto;
-        }
-        .col {
-            margin: 10% 2%;
-        }
-  }
+        font-size: 40px;
+    }
+    .fa-instagram {
+        margin: 5px 30px;
+        font-size: 40px;
+    }
+    .fa-facebook-f {
+        margin: 5px 30px;
+        font-size: 40px;
+    }
+    .fa-github-alt {
+        margin: 5px 30px;
+        font-size: 40px;
+    }
+    .fa-envelope {
+        font-size: 40px;
+    }
+    .fa-html5 {
+        color: #ff0000;
+        font-size: 80px;
+    }
+    .fa-css3-alt {
+        color: #264DE4;
+        font-size: 80px;
+    }
+    .fa-js-square {
+        color: #F5DF4B;
+        font-size: 80px;
+    }
+    .fa-html5 {
+        font-size: 50px;
+    }
+    .fa-css3-alt {
+        font-size: 50px;
+    }
+    .fa-js-square {
+        font-size: 50px;
+    }
+    h6 {
+        margin: 20px auto;
+    }
+    .col {
+        margin: 10% 2%;
+    }
+}
