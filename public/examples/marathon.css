@@ -72,13 +72,19 @@ main {
     flex-direction: row;
     color: #eee;
     background: #001021;
-    padding: 10px;
+    padding: 20px;
 }
 
 .mid-content-info {
     width: 100%;
     max-width: 700px;
     line-height: 35px;
+    padding: 10px;
+    margin-left: 4%;
+}
+
+.mid-content-info p {
+    font-size: 20px;
 }
 
 section.mid {
@@ -86,7 +92,7 @@ section.mid {
 }
 
 .mid-header p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
